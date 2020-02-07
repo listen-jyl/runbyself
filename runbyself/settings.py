@@ -33,9 +33,16 @@ THREADS = 20
 
 #自定义请求头
 HEADERS = {
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-    'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
-    'Accept-Encoding': 'gzip, deflate',
+    'Accept': '*/*',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Accept-Language': 'zh,zh-TW;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6',
     'Connection': 'keep-alive',
+    'Content-Length': 236,
+    'Content-Type': 'text/plain;charset=UTF-8',
+    'Host': 'www.izuiyou.com',
+    'Origin': 'https://www.izuiyou.com',
+    'Referer': 'https://www.izuiyou.com/',
+    'Sec-Fetch-Mode': 'cors',
+    'Sec-Fetch-Site': 'same-origin',
     'User-Agent': randUserAgent(),
         }
