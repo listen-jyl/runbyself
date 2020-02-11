@@ -7,7 +7,6 @@ import requests
 from lxml import etree
 
 
-
 def magnumNext(html):
     tt = etree.HTML(html)
     nextname = ['下一页', '下页', '后页']
@@ -18,13 +17,14 @@ def magnumNext(html):
             return nexturl[0]
 
 
-def getResponse(url, tree=1, *args, **kwargs):
+def getResponse(url, tree=1, method="get", *args, **kwargs):
     '''
     param tree: 1返回响应文本，2返回etree对象
     如果响应码非200则返回响应体
     '''
     print("start request:------>%s\t" % url,end="")
-    res = requests.get(url=url, *args, **kwargs)
+    request = eval("requests.%s" % method)
+    res = request(url=url, *args, **kwargs)
     print("status_code:%s" % res.status_code)
     if res.status_code == 200:
         if tree == 1:
@@ -127,6 +127,23 @@ def randUserAgent(mode=0):
         return random.choice(pua)
 
     return random.choice(ua)
+
+#自定义请求头
+HEADERS = {
+    'Accept': '*/*',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Accept-Language': 'zh,zh-TW;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6',
+    'Connection': 'keep-alive',
+    'Content-Length': "236",
+    'Content-Type': 'text/plain;charset=UTF-8',
+    'Host': 'www.izuiyou.com',
+    'Origin': 'https://www.izuiyou.com',
+    'Referer': 'https://www.izuiyou.com/',
+    'Sec-Fetch-Mode': 'cors',
+    'Sec-Fetch-Site': 'same-origin',
+    'User-Agent': randUserAgent(),
+        }
+
 
 
 if __name__ == "__main__":
