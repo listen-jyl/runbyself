@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 
-
-from spider import engine
-
-
+from extract import origin, parse
+from editing import editor
 
 
+f = open('caching.txt', 'r+').readline().strip()
 
-def main():
-    engine()
 
-if __name__ == "__main__":
-    main()
+initdata = origin(int(f))
+result = parse(initdata)
+editor(result)
