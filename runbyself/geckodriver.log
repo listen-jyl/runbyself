@@ -1,0 +1,89 @@
+1581569254505	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IUlMkjIvzMZ7"
+1581569255296	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581569255631	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581569255631	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581569255631	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581569255631	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: moz-extension://684428d5-75b8-44cb-a7c6-fc665c6a45b3/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1581569259236	Marionette	INFO	Listening on port 42837
+1581569259337	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581569572264	Marionette	ERROR	[54] No reply from Marionette:Register
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 81: TypeError: browser is null
+JavaScript error: , line 0: NS_ERROR_UNEXPECTED: 
+1581569589966	Marionette	ERROR	[56] No reply from Marionette:Register
+1581569713347	Marionette	ERROR	[69] No reply from Marionette:Register
+1581569713356	Marionette	ERROR	[71] No reply from Marionette:Register
+1581569718982	Marionette	INFO	Stopped listening on port 42837
+1581569728181	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3K8K6k4Nbm01"
+1581569728677	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581569728862	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581569728862	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581569728863	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581569728863	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: moz-extension://704a81b3-0b3e-4710-87e0-52e8139bb01c/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1581569732397	Marionette	INFO	Listening on port 44565
+1581569732477	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581569733615	Marionette	ERROR	[31] No reply from Marionette:Register
+1581569733627	Marionette	ERROR	[33] No reply from Marionette:Register
+1581569733640	Marionette	ERROR	[35] No reply from Marionette:Register
+1581569735037	Marionette	ERROR	[39] No reply from Marionette:Register
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 81: TypeError: browser is null
+JavaScript error: , line 0: NS_ERROR_UNEXPECTED: 
+1581569735368	Marionette	ERROR	[43] No reply from Marionette:Register
+1581569735885	Marionette	ERROR	[45] No reply from Marionette:Register
+1581569777254	Marionette	INFO	Stopped listening on port 44565
+1581569778979	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.if5MlIukkUPo"
+1581569779409	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581569779586	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581569779586	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581569779586	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581569779586	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: moz-extension://ea37dadb-6596-43b3-b7bd-2303fc59cd2d/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1581569783040	Marionette	INFO	Listening on port 43187
+1581569783137	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581569784479	Marionette	ERROR	[31] No reply from Marionette:Register
+1581569784491	Marionette	ERROR	[33] No reply from Marionette:Register
+1581569788655	Marionette	INFO	Stopped listening on port 43187
+1581569865421	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.T0AaKayBtnt7"
+1581569865892	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581569866060	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581569866060	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581569866060	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581569866060	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: moz-extension://554bc3ee-ef27-4ae4-a13f-32a896d1e529/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1581569869662	Marionette	INFO	Listening on port 40285
+1581569869748	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581569871114	Marionette	ERROR	[31] No reply from Marionette:Register
+1581569888885	Marionette	ERROR	[37] No reply from Marionette:Register
+1581569888897	Marionette	ERROR	[39] No reply from Marionette:Register
+1581569890160	Marionette	INFO	Stopped listening on port 40285
+1581569893214	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.T1X8Eb56J2Rr"
+1581569893645	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581569893817	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581569893817	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581569893817	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581569893817	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: moz-extension://46b2b46d-4e1c-434e-960e-64a20fabc811/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1581569897164	Marionette	INFO	Listening on port 46551
+1581569897254	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581569898754	Marionette	ERROR	[31] No reply from Marionette:Register
+1581569898765	Marionette	ERROR	[33] No reply from Marionette:Register
+1581569898775	Marionette	ERROR	[35] No reply from Marionette:Register
+1581569914133	Marionette	ERROR	[43] No reply from Marionette:Register
+1581569929352	Marionette	ERROR	[51] No reply from Marionette:Register
+1581569937321	Marionette	ERROR	[55] No reply from Marionette:Register
+1581569943327	Marionette	ERROR	[59] No reply from Marionette:Register
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 81: TypeError: browser is null
+JavaScript error: , line 0: NS_ERROR_UNEXPECTED: 
+1581569944811	Marionette	ERROR	[61] No reply from Marionette:Register
+1581569945973	Marionette	ERROR	[69] No reply from Marionette:Register
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 81: TypeError: browser is null
+JavaScript error: , line 0: NS_ERROR_UNEXPECTED: 
+1581569947799	Marionette	ERROR	[71] No reply from Marionette:Register
+1581569949455	Marionette	ERROR	[79] No reply from Marionette:Register
+1581569955714	Marionette	ERROR	[83] No reply from Marionette:Register
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 81: TypeError: browser is null
+JavaScript error: , line 0: NS_ERROR_UNEXPECTED: 
+1581569958970	Marionette	ERROR	[85] No reply from Marionette:Register
+1581569960189	Marionette	ERROR	[93] No reply from Marionette:Register
+1581569974430	Marionette	INFO	Stopped listening on port 46551
