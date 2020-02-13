@@ -37,7 +37,7 @@ class BrowserOperation:
 
         self.driver.get('https://mp.weixin.qq.com/')
         self.driver.find_element_by_name('account').send_keys('funnyimg')
-        self.driver.find_element_by_name('password').send_keys('jjjYYl888')
+        self.driver.find_element_by_name('password').send_keys('')
         self.driver.find_element_by_xpath('//a[@title="点击登录"]').click()
         cl = '''self.driver.find_element_by_xpath('//div[@class="weui-desktop-global__extra"]/a').click()'''
         self.loopwait(cl)
