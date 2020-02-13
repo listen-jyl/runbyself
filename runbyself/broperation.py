@@ -17,8 +17,20 @@ class BrowserOperation:
         #  options.add_argument('-headless')
         self.driver = webdriver.Chrome(chrome_options=options)
 
+    def loopwait(self, codeline):
+        while True:
+            try:
+                eval(codeline)
+            except (StaleElementReferenceException, NoSuchElementException):
+                sleep(2)
+                continue
+            else:
+                break
+
 
     def wxoperation(self):
+
+
         if 'driver' not in self.__dict__:
             self.openBrowser()
 
@@ -27,37 +39,23 @@ class BrowserOperation:
         self.driver.find_element_by_name('account').send_keys('funnyimg')
         self.driver.find_element_by_name('password').send_keys('jjjYYl888')
         self.driver.find_element_by_xpath('//a[@title="点击登录"]').click()
-        sleep(5)
-        try:
-            self.driver.find_element_by_xpath('//div[@class="weui-desktop-global__extra"]/a').click()
-        except (StaleElementReferenceException, NoSuchElementException):
-            sleep(5)
-            self.driver.find_element_by_xpath('//div[@class="weui-desktop-global__extra"]/a').click()
+        cl = '''self.driver.find_element_by_xpath('//div[@class="weui-desktop-global__extra"]/a').click()'''
+        self.loopwait(cl)
         self.driver.switch_to.window(self.driver.window_handles[-1])
 
-        sleep(20)
-        self.driver.find_elements_by_class_name('create-type__item')[1].click()
+        cl = "self.driver.find_elements_by_class_name('create-type__item')[1].click()"
+        self.loopwait(cl)
         self.driver.switch_to.window(self.driver.window_handles[-1])
-        sleep(20)
-        self.driver.find_element_by_id('js_editor_insertlink').click()
-        sleep(2)
-
+        cl = "self.driver.find_element_by_id('js_editor_insertlink').click()"
+        self.loopwait(cl)
         self.wxcookies = self.driver.get_cookies()
-
-
-    def wxcookieParse(self):
-        print(cstring)
-        return cstring
-
-    def wxtoken(self):
-        self.
 
 
     def getPastArg(self):
         cookie = ''
         for c in self.wxcookies:
             cookie += c['name'] + '=' + c['value'] + ';'
-        for t in self.current_url.split('&'):
+        for t in self.driver.current_url.split('&'):
             if t.startswith('token='):
                 token = t.split('=')[1]
                 break
@@ -65,14 +63,12 @@ class BrowserOperation:
 
 
 
-
-
-
 if __name__ == "__main__":
     b = BrowserOperation()
     b.wxoperation()
     from extract import getPast
-    r = getPast(b.getPastArg())
+    token, cookie = b.getPastArg()
+    r = getPast(token, cookie)
     print(r)
 
 

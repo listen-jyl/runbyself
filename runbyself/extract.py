@@ -61,7 +61,7 @@ def origin(page):
 
 
 def getPast(token, cookies):
-    url = "https://mp.weixin.qq.com/cgi-bin/appmsg?action=list_ex&begin=0&count=5&fakeid=&type=9&query=&token=412561177&lang=zh_CN&f=json&ajax=1"
+    url = "https://mp.weixin.qq.com/cgi-bin/appmsg?action=list_ex&begin=0&count=5&fakeid=&type=9&query=&token={}&lang=zh_CN&f=json&ajax=1".format(token)
     headers = {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0",
             'Cookie': cookies,

@@ -4,7 +4,7 @@
 from extract import getPast
 
 
-def editor(data_json):
+def editor(data_json, token, cookie):
     html = '''
     <!doctype html>
     <html>
@@ -99,7 +99,7 @@ def editor(data_json):
 
     </body></html>'''
 
-    plist = getPast()
+    plist = getPast(token, cookie)
     tail = tail.replace('{rtitle0}', plist['rtitle0'])
     tail = tail.replace('{rtitle1}', plist['rtitle1'])
     tail = tail.replace('{rtitle2}', plist['rtitle2'])
